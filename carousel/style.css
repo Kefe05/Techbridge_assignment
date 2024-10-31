@@ -1,0 +1,20 @@
+.carousel{
+  background-color: brown;
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+}
+
+.carousel > div{
+  width: 1000px;
+  height: 100%;
+}
+.one{
+  background-color: red;
+}
+.two{
+  background-color: aquamarine;
+}
+.three{
+  background-color: brown;
+}
