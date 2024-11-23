@@ -1,0 +1,85 @@
+input{
+  display: inline-block;
+}
+h1{
+  text-align: center;
+  font-size: 50px;
+  color: rgb(0, 64, 255);
+}
+.all-element{
+  padding: 6px;
+}
+body{
+  background-color: #f2f2f2;
+}
+.card{
+  margin: auto;
+  width:430px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 2px 2px 4px rgba(128, 128, 128, 0.214);
+}
+
+.header-ctn{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.header-ctn h2{
+  padding: 0;
+  margin: 0;
+}
+
+.name{
+  width: 45%;
+}
+
+.small-text{
+  font-size: 14px;
+}
+select{
+  width: 30%;
+  margin-right: 2%;
+}
+form{
+  margin: auto;
+  width: 100%;
+}
+input, select, .gender span,.sign-up-btn{
+  border-radius: 2px;
+  border-width: 1px;
+  margin-bottom: 10px;
+}
+.gender span{
+  display: inline-block;
+  border: 1px solid black;
+  width: 27%;
+  margin-right: 2%;
+}
+.gender span input{
+  float: right;
+}
+
+.full-input{
+  margin-top: 7px;
+  width: 95%;
+  margin-bottom: 3px;
+}
+p{
+  width: 94%;
+}
+.sign-up-btn{
+  background-color: rgb(39, 178, 39);
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  width: 200px;
+  display: block;
+  margin:auto;
+  margin-bottom: 10px;
+}
+#already{
+  display: block;
+  text-align: center;
+}
