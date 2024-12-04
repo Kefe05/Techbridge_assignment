@@ -1,0 +1,34 @@
+body{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: rgb(28, 28, 28);
+  color:antiquewhite;
+  padding-top: 30px;
+}
+
+button{
+
+  display: block;
+  padding: 10px 20px;
+  font-weight: 700;
+  font-size: 19px;
+  margin: auto;
+  background-color: rgb(124, 124, 124);
+  color: antiquewhite;
+  border-radius: 10px;
+}
+
+#body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.container{
+  max-width:300px;
+  background-color: rgb(119, 119, 119);
+  padding: 20px;
+}

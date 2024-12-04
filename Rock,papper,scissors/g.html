@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors Game</title>
+  <link rel="stylesheet" href="./g.css">
+</head>
+<body>
+  <h1>Rock Paper Scissors Game</h1>
+  <p>Click on an image to make your choice</p>
+  <form id="gameForm">
+    <label for="gameCount">Number of games:</label>
+    <input type="number" id="gameCount" name="gameCount" min="1" required>
+    <button type="submit">Start Game</button>
+  </form>
+  <div class="for all">
+    <div id="all-choices">
+      <div id="rock" class="choice"><img src="./images/rock.jpeg" alt="Rock"></div>
+      <div id="paper" class="choice"><img src="./images/paper.jpeg" alt="Paper"></div>
+      <div id="scissors" class="choice"><img src="./images/scissors.jpg" alt="Scissors"></div>
+    </div>
+    <div class="content"></div>
+  </div>
+  <div class="choices-display">
+    <div>
+      <h3>Your Choice</h3>
+      <img id="userChoiceImage" src="" alt="Your Choice">
+    </div>
+    <div>
+      <h3>Computer's Choice</h3>
+      <img id="computerChoiceImage" src="" alt="Computer's Choice">
+    </div>
+  </div>
+  <div id="result"></div>
+  <script src="./g.js"></script>
+</body>
+</html>
